@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Load model
-with open('../src/modelos-random-forest.pkl', 'rb') as f:
+with open('modelos-random-forest.pkl', 'rb') as f:
     modelos = pickle.load(f)
 
 model = modelos['rf_classifier_model']
